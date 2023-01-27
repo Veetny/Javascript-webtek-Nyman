@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Veetin.css" rel="stylesheet">
+    <script defer src="Veetin script.js"></script>
+    <title>Äidinkielenvisa</title>
+</head>
+<body>
+    <!--Making the html part of the nav-->
+    <nav>
+        <!--Making labels and the logo for the quiz-->
+        <label class="logo">Äidinkielen Visa</label>
+        <label class="logo1"><img src="Logo2.png"></label>
+        <!--Creating links for the ability to move around the website-->
+    <ul>
+        <li> <a href="../etusivu.html">Etusivu</a></li>
+        <li> <a href="../Tommin nettisivu/tomminHTML.html">Matikkavisa</a></li>
+        <li> <a href="../Oskarin sivu/oskarinHTML.html">Maantietovisa</a></li>
+        <li> <a href="../Villen sivu/villen.html">Eläinvisa</a></li>
+        
+    </ul>
+    </nav>
+    <!--Making a container where the buttons appear in-->
+    <div class="container">
+        <div id="question-container" class="hide">
+        <!--A template to use in javascript-->
+        <div id="question">Question</div>
+        <!--A template for the answers to use in javascript-->
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        </div>
+        <!--Making start and next buttons to contol the quiz-->
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Aloita</button>
+            <button id="next-btn" class="next-btn btn hide">Seuraava</button>
+        </div>
+    </div>
+    <!--Creating the footer and a link directly to the info page-->
+    <footer><a href="../Tietoja/tietoja.html">Veeti Nyman</a></footer>
+</body>
+</html>
